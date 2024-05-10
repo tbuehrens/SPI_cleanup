@@ -109,7 +109,7 @@ dups2<- finaldf %>%
 finaldf<-read_csv("data/tbl_SPI_stock_cleaned.csv")%>%
   dplyr::select(esu_dps_name=nosa_esu_dps_name,esa_pop_name= nosa_esa_pop_name,popid=nosa_popid)%>%
   mutate(popid=as.character(popid))%>%
-  right_join(finaldf, join_by(popid))
+  full_join(finaldf, join_by(popid))
 
 finaldf%>%
   write.csv(paste0("SPI_dat_",Sys.Date(),".csv"),row.names = F)

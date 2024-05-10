@@ -1,4 +1,4 @@
-"esu_dps_name","nosa_esa_pop_name","popid","commonpopname","spawningyear","popfit","popfitnotes","tsaej","nosaej","phosej","nosaij","tsaij","phosij"
+"esu_dps_name","esa_pop_name","popid","commonpopname","spawningyear","popfit","popfitnotes","tsaej","nosaej","phosej","nosaij","tsaij","phosij"
 "Salmon, coho (Lower Columbia River ESU)","Salmon, coho (Lower Columbia River ESU) Coweeman River - late","269","Coweeman Coho","2010","Same",NA,"4176","3799","0.088",NA,NA,NA
 "Salmon, coho (Lower Columbia River ESU)","Salmon, coho (Lower Columbia River ESU) Coweeman River - late","269","Coweeman Coho","2011","Same",NA,"3492","3311","0.047",NA,NA,NA
 "Salmon, coho (Lower Columbia River ESU)","Salmon, coho (Lower Columbia River ESU) Coweeman River - late","269","Coweeman Coho","2012","Same",NA,"3354","3200","0.039",NA,NA,NA
@@ -104,6 +104,10 @@
 "Salmon, coho (Lower Columbia River ESU)","Salmon, coho (Lower Columbia River ESU) Tilton River - early and late","278","Tilton Coho","2020","Same",NA,"13299","2401","0.819",NA,NA,NA
 "Salmon, coho (Lower Columbia River ESU)","Salmon, coho (Lower Columbia River ESU) Tilton River - early and late","278","Tilton Coho","2021","Same",NA,"15037","6399","0.574",NA,NA,NA
 "Salmon, coho (Lower Columbia River ESU)","Salmon, coho (Lower Columbia River ESU) Tilton River - early and late","278","Tilton Coho","2022","Same",NA,"16653","7275","0.563",NA,NA,NA
+"Salmon, chum (Columbia River ESU)","Salmon, chum (Columbia River ESU) Lewis River - fall","254",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"Salmon, Chinook (Lower Columbia River ESU)","Salmon, Chinook (Lower Columbia River ESU) Tilton River - spring","224",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"Steelhead (Lower Columbia River DPS)","Steelhead (Lower Columbia River DPS) North Fork Lewis River - winter","301",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"Salmon, chum (Columbia River ESU)","Salmon, chum (Columbia River ESU) Elochoman River - fall","260",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 "Steelhead (Lower Columbia River DPS)","Steelhead (Lower Columbia River DPS) Kalama River - summer","297","Kalama Summer Steelhead","1977","Same",NA,"400","400",NA,"400","400",NA
 "Steelhead (Lower Columbia River DPS)","Steelhead (Lower Columbia River DPS) Kalama River - summer","297","Kalama Summer Steelhead","1978","Same",NA,"1015","1015",NA,"1015","1015",NA
 "Steelhead (Lower Columbia River DPS)","Steelhead (Lower Columbia River DPS) Kalama River - summer","297","Kalama Summer Steelhead","1979","Same",NA,"484","484",NA,"484","484",NA
@@ -422,6 +426,8 @@
 "Salmon, Chinook (Lower Columbia River ESU)","Salmon, Chinook (Lower Columbia River ESU) Coweeman River - fall","213","Coweeman Fall (Tule) Chinook","2021","Same",NA,"669","607","0.092",NA,NA,NA
 "Salmon, Chinook (Lower Columbia River ESU)","Salmon, Chinook (Lower Columbia River ESU) Coweeman River - fall","213","Coweeman Fall (Tule) Chinook","2022","Same",NA,"440","403","0.084",NA,NA,NA
 "Salmon, Chinook (Lower Columbia River ESU)","Salmon, Chinook (Lower Columbia River ESU) Coweeman River - fall","213","Coweeman Fall (Tule) Chinook","2023","Same",NA,"501","465","0.071",NA,NA,NA
+"Salmon, chum (Columbia River ESU)","Salmon, chum (Columbia River ESU) Cowlitz River - fall","252",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"Salmon, chum (Columbia River ESU)","Salmon, chum (Columbia River ESU) Cowlitz River - summer","344",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 "Steelhead (Lower Columbia River DPS)","Steelhead (Lower Columbia River DPS) Kalama River - winter","298","Kalama Winter Steelhead","1977","Same",NA,"1020",NA,NA,NA,NA,NA
 "Steelhead (Lower Columbia River DPS)","Steelhead (Lower Columbia River DPS) Kalama River - winter","298","Kalama Winter Steelhead","1978","Same",NA,"1681",NA,NA,NA,NA,NA
 "Steelhead (Lower Columbia River DPS)","Steelhead (Lower Columbia River DPS) Kalama River - winter","298","Kalama Winter Steelhead","1979","Same",NA,"572",NA,NA,NA,NA,NA
@@ -468,6 +474,10 @@
 "Steelhead (Lower Columbia River DPS)","Steelhead (Lower Columbia River DPS) Kalama River - winter","298","Kalama Winter Steelhead","2020","Same",NA,"464",NA,"0.010",NA,NA,NA
 "Steelhead (Lower Columbia River DPS)","Steelhead (Lower Columbia River DPS) Kalama River - winter","298","Kalama Winter Steelhead","2021","Same",NA,"303",NA,"0.027",NA,NA,NA
 "Steelhead (Lower Columbia River DPS)","Steelhead (Lower Columbia River DPS) Kalama River - winter","298","Kalama Winter Steelhead","2022","Same",NA,"792",NA,"0.019",NA,NA,NA
+"Salmon, chum (Columbia River ESU)","Salmon, chum (Columbia River ESU) Salmon Creek - fall","255",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"Steelhead (Lower Columbia River DPS)","Steelhead (Lower Columbia River DPS) Lower Gorge Tributaries - winter","312",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"Steelhead (Lower Columbia River DPS)","Steelhead (Lower Columbia River DPS) Salmon Creek - winter","303",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"Steelhead (Lower Columbia River DPS)","Steelhead (Lower Columbia River DPS) North Fork Lewis River - summer","300",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 "Steelhead (Lower Columbia River DPS)","Steelhead (Lower Columbia River DPS) Wind River - summer","314","Wind River (Upper Gorge) Summer Steelhead","1989","Same",NA,NA,"1016",NA,NA,NA,NA
 "Steelhead (Lower Columbia River DPS)","Steelhead (Lower Columbia River DPS) Wind River - summer","314","Wind River (Upper Gorge) Summer Steelhead","1990","Same",NA,NA,"561",NA,NA,NA,NA
 "Steelhead (Lower Columbia River DPS)","Steelhead (Lower Columbia River DPS) Wind River - summer","314","Wind River (Upper Gorge) Summer Steelhead","1991","Same",NA,NA,"596",NA,NA,NA,NA
@@ -583,6 +593,7 @@
 "Steelhead (Lower Columbia River DPS)","Steelhead (Lower Columbia River DPS) Washougal River - summer","308","Washougal Summer Steelhead","2020","Same",NA,NA,"392",NA,"392",NA,NA
 "Steelhead (Lower Columbia River DPS)","Steelhead (Lower Columbia River DPS) Washougal River - summer","308","Washougal Summer Steelhead","2021","Same",NA,NA,"128",NA,"128",NA,NA
 "Steelhead (Lower Columbia River DPS)","Steelhead (Lower Columbia River DPS) Washougal River - summer","308","Washougal Summer Steelhead","2022","Same",NA,NA,NA,NA,"479",NA,NA
+"Steelhead (Middle Columbia River DPS)","Steelhead (Middle Columbia River DPS) Klickitat River - summer and winter","61",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 NA,"Steelhead (Southwest Washington DPS) Grays and Chinook Rivers - winter","532","Grays River Winter Steelhead","1989","Same",NA,"441",NA,NA,NA,"441",NA
 NA,"Steelhead (Southwest Washington DPS) Grays and Chinook Rivers - winter","532","Grays River Winter Steelhead","1990","Same",NA,"525",NA,NA,NA,"525",NA
 NA,"Steelhead (Southwest Washington DPS) Grays and Chinook Rivers - winter","532","Grays River Winter Steelhead","1991","Same",NA,"716",NA,NA,NA,"716",NA
@@ -664,6 +675,9 @@ NA,"Steelhead (Southwest Washington DPS) Elochoman River - winter","533","Elocho
 NA,"Steelhead (Southwest Washington DPS) Elochoman River - winter","533","Elochoman Winter Steelhead","2019","Same",NA,"586",NA,NA,NA,"586",NA
 NA,"Steelhead (Southwest Washington DPS) Elochoman River - winter","533","Elochoman Winter Steelhead","2020","Same",NA,"370",NA,NA,NA,"370",NA
 NA,"Steelhead (Southwest Washington DPS) Elochoman River - winter","533","Elochoman Winter Steelhead","2021","Same",NA,"378",NA,NA,NA,"378",NA
+"Salmon, Chinook (Lower Columbia River ESU)","Salmon, Chinook (Lower Columbia River ESU) Cispus River - spring","212",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"Steelhead (Lower Columbia River DPS)","Steelhead (Lower Columbia River DPS) Cispus River - winter","293",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"Salmon, chum (Columbia River ESU)","Salmon, chum (Columbia River ESU) Kalama River - fall","253",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 "Salmon, chum (Columbia River ESU)","Salmon, chum (Columbia River ESU) Washougal River - fall","257","Washougal Fall Chum","2002","Same",NA,"3190","3145",NA,NA,NA,NA
 "Salmon, chum (Columbia River ESU)","Salmon, chum (Columbia River ESU) Washougal River - fall","257","Washougal Fall Chum","2003","Same",NA,"2968","2932",NA,NA,NA,NA
 "Salmon, chum (Columbia River ESU)","Salmon, chum (Columbia River ESU) Washougal River - fall","257","Washougal Fall Chum","2004","Same",NA,"2349","2324",NA,NA,NA,NA
@@ -815,6 +829,7 @@ NA,"Steelhead (Southwest Washington DPS) Elochoman River - winter","533","Elocho
 "Salmon, chum (Columbia River ESU)","Salmon, chum (Columbia River ESU) Grays and Chinook Rivers - fall","261","Grays/Chinook Fall Chum","2019","Same",NA,"7468","7002","0.062",NA,NA,NA
 "Salmon, chum (Columbia River ESU)","Salmon, chum (Columbia River ESU) Grays and Chinook Rivers - fall","261","Grays/Chinook Fall Chum","2020","Same",NA,"13466","12726","0.054",NA,NA,NA
 "Salmon, chum (Columbia River ESU)","Salmon, chum (Columbia River ESU) Grays and Chinook Rivers - fall","261","Grays/Chinook Fall Chum","2021","Same",NA,"17414","16760","0.038",NA,NA,NA
+"Salmon, chum (Columbia River ESU)","Salmon, chum (Columbia River ESU) Mill, Abernathy, and Germany Creeks - fall","262",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 "Salmon, Chinook (Lower Columbia River ESU)","Salmon, Chinook (Lower Columbia River ESU) Lewis River - late fall","216","Lewis River Late Fall (Bright) Chinook","1964","Same",NA,"16857",NA,NA,NA,NA,NA
 "Salmon, Chinook (Lower Columbia River ESU)","Salmon, Chinook (Lower Columbia River ESU) Lewis River - late fall","216","Lewis River Late Fall (Bright) Chinook","1965","Same",NA,"7927",NA,NA,NA,NA,NA
 "Salmon, Chinook (Lower Columbia River ESU)","Salmon, Chinook (Lower Columbia River ESU) Lewis River - late fall","216","Lewis River Late Fall (Bright) Chinook","1966","Same",NA,"11627",NA,NA,NA,NA,NA
@@ -875,6 +890,7 @@ NA,"Steelhead (Southwest Washington DPS) Elochoman River - winter","533","Elocho
 "Salmon, Chinook (Lower Columbia River ESU)","Salmon, Chinook (Lower Columbia River ESU) Lewis River - late fall","216","Lewis River Late Fall (Bright) Chinook","2021","Same",NA,"12675","12422","0.020","12624","12880","0.020"
 "Salmon, Chinook (Lower Columbia River ESU)","Salmon, Chinook (Lower Columbia River ESU) Lewis River - late fall","216","Lewis River Late Fall (Bright) Chinook","2022","Same",NA,"6847","6685","0.019",NA,NA,NA
 "Salmon, Chinook (Lower Columbia River ESU)","Salmon, Chinook (Lower Columbia River ESU) Lewis River - late fall","216","Lewis River Late Fall (Bright) Chinook","2023","Same",NA,"7628","7483","0.015",NA,NA,NA
+"Salmon, Chinook (Lower Columbia River ESU)","Salmon, Chinook (Lower Columbia River ESU) Salmon Creek - fall","220",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 "Salmon, Chinook (Lower Columbia River ESU)","Salmon, Chinook (Lower Columbia River ESU) Washougal River - fall","229","Washougal Fall (Tule) Chinook","1944","Same",NA,"538",NA,NA,NA,NA,NA
 "Salmon, Chinook (Lower Columbia River ESU)","Salmon, Chinook (Lower Columbia River ESU) Washougal River - fall","229","Washougal Fall (Tule) Chinook","1946","Same",NA,"179",NA,NA,NA,NA,NA
 "Salmon, Chinook (Lower Columbia River ESU)","Salmon, Chinook (Lower Columbia River ESU) Washougal River - fall","229","Washougal Fall (Tule) Chinook","1953","Same",NA,"21",NA,NA,NA,NA,NA
@@ -1351,6 +1367,8 @@ NA,"Steelhead (Southwest Washington DPS) Elochoman River - winter","533","Elocho
 "Salmon, Chinook (Lower Columbia River ESU)","Salmon, Chinook (Lower Columbia River ESU) Upper Cowlitz River - fall","227","Upper Cowlitz Fall (Tule) Chinook","2019","Same",NA,"544","543","0.002",NA,NA,NA
 "Salmon, Chinook (Lower Columbia River ESU)","Salmon, Chinook (Lower Columbia River ESU) Upper Cowlitz River - fall","227","Upper Cowlitz Fall (Tule) Chinook","2020","Same",NA,"2265","1983","0.125",NA,NA,NA
 "Salmon, Chinook (Lower Columbia River ESU)","Salmon, Chinook (Lower Columbia River ESU) Upper Cowlitz River - fall","227","Upper Cowlitz Fall (Tule) Chinook","2021","Same",NA,"863","682","0.210",NA,NA,NA
+"Salmon, Chinook (Lower Columbia River ESU)","Salmon, Chinook (Lower Columbia River ESU) Lower Gorge Tributaries - fall","240",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"Salmon, Chinook (Lower Columbia River ESU)","Salmon, Chinook (Lower Columbia River ESU) Toutle River - spring","226",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 "Salmon, Chinook (Lower Columbia River ESU)","Salmon, Chinook (Lower Columbia River ESU) Toutle River - fall","225","Toutle Fall (Tule) Chinook","1986","Portion","Green River only.","0",NA,NA,NA,NA,NA
 "Salmon, Chinook (Lower Columbia River ESU)","Salmon, Chinook (Lower Columbia River ESU) Toutle River - fall","225","Toutle Fall (Tule) Chinook","2010","Portion","Includes estimates of NF Toutle/Green River and SF Toutle, does not include mainstem.  Production from mainstem habitat (below confluence of NF and SF) after Mt. St. Helen's assumed to be minimal","1917","227","0.881",NA,NA,NA
 "Salmon, Chinook (Lower Columbia River ESU)","Salmon, Chinook (Lower Columbia River ESU) Toutle River - fall","225","Toutle Fall (Tule) Chinook","2011","Portion","Includes estimates of NF Toutle/Green River and SF Toutle, does not include mainstem.  Production from mainstem habitat (below confluence of NF and SF) after Mt. St. Helen's assumed to be minimal","1498","198","0.868",NA,NA,NA
@@ -1660,6 +1678,7 @@ NA,"Steelhead (Southwest Washington DPS) Elochoman River - winter","533","Elocho
 "Steelhead (Lower Columbia River DPS)","Steelhead (Lower Columbia River DPS) South Fork Toutle River - winter","305","South Fork Toutle Winter Steelhead","2020","Same",NA,"148",NA,NA,NA,NA,NA
 "Steelhead (Lower Columbia River DPS)","Steelhead (Lower Columbia River DPS) South Fork Toutle River - winter","305","South Fork Toutle Winter Steelhead","2021","Same",NA,"744",NA,NA,NA,NA,NA
 "Steelhead (Lower Columbia River DPS)","Steelhead (Lower Columbia River DPS) South Fork Toutle River - winter","305","South Fork Toutle Winter Steelhead","2022","Same",NA,"270",NA,NA,NA,NA,NA
+"Salmon, coho (Lower Columbia River ESU)","Salmon, coho (Lower Columbia River ESU) Cispus River - early and late","268",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 "Salmon, coho (Lower Columbia River ESU)","Salmon, coho (Lower Columbia River ESU) Lower Cowlitz River - late","272","Lower Cowlitz Coho","2010","Portion","Lower Cowlitz Tributary estimate only - does not include mainstem Cowlitz","8543","7002","0.135",NA,NA,NA
 "Salmon, coho (Lower Columbia River ESU)","Salmon, coho (Lower Columbia River ESU) Lower Cowlitz River - late","272","Lower Cowlitz Coho","2011","Portion","Lower Cowlitz Tributary estimate only - does not include mainstem Cowlitz","6192","5254","0.111",NA,NA,NA
 "Salmon, coho (Lower Columbia River ESU)","Salmon, coho (Lower Columbia River ESU) Lower Cowlitz River - late","272","Lower Cowlitz Coho","2012","Portion","Lower Cowlitz Tributary estimate only - does not include mainstem Cowlitz","5522","4610","0.129",NA,NA,NA
