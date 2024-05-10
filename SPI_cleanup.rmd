@@ -140,7 +140,7 @@ finaldf %>%
                  min_yr_pHOS,
                  max_yr_pHOS
 )%>%
-  write.csv(paste0("SPI_data_status",Sys.Date(),".csv"),row.names = F)
+  write.csv(paste0("SPI_data_status_",Sys.Date(),".csv"),row.names = F)
 
 
 ```
