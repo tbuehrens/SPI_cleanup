@@ -131,6 +131,10 @@ finaldf %>%
             max_yr = max(spawningyear,na.rm = T)
             ) %>%
   pivot_wider(names_from = vargroup, values_from = c("min_yr", "max_yr"))%>%
+  full_join(read_csv("data/tbl_SPI_stock_cleaned.csv")%>%
+              dplyr::select(esu_dps_name=nosa_esu_dps_name,esa_pop_name=nosa_esa_pop_name),
+            by=join_by(esa_pop_name)
+            )%>%
   dplyr:::select(esa_pop_name,
                  commonpopname,
                  min_yr_NOSA,
@@ -139,7 +143,8 @@ finaldf %>%
                  max_yr_TSA,
                  min_yr_pHOS,
                  max_yr_pHOS
-)%>%
+                 )%>%
+  arrange(esa_pop_name)%>%
   write.csv(paste0("SPI_data_status_",Sys.Date(),".csv"),row.names = F)
 
 
