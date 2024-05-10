@@ -8,7 +8,7 @@ output: html_document
 
 ### Load some packages
 ```{r}
-pacman::p_load(httr,jsonlite,tidyverse,Rsocrata)
+pacman::p_load(httr,jsonlite,tidyverse,RSocrata)
 ```
 
 
@@ -106,10 +106,41 @@ dups2<- finaldf %>%
 
 5) lets add some more names and write out the data
 ```{r}
-read_csv("data/tbl_SPI_stock_cleaned.csv")%>%
-  dplyr::select(esu_dps_name=nosa_esu_dps_name,nosa_esa_pop_name,popid=nosa_popid)%>%
+finaldf<-read_csv("data/tbl_SPI_stock_cleaned.csv")%>%
+  dplyr::select(esu_dps_name=nosa_esu_dps_name,esa_pop_name= nosa_esa_pop_name,popid=nosa_popid)%>%
   mutate(popid=as.character(popid))%>%
-  right_join(finaldf, join_by(popid))%>%
+  right_join(finaldf, join_by(popid))
+
+finaldf%>%
   write.csv(paste0("SPI_dat_",Sys.Date(),".csv"),row.names = F)
 ```
 
+6) summarize where we are
+
+```{r}
+finaldf %>%
+  pivot_longer(names_to = "var", values_to = "value", cols = c("tsaej", "tsaij", "nosaej", "nosaij", "phosej", "phosij")) %>%
+  filter(!is.na(value)) %>%
+  mutate(vargroup = ifelse(var %in% c("tsaej", "tsaij"), "TSA",
+                           ifelse(var %in% c("nosaej", "nosaij"), "NOSA",
+                                  ifelse(var %in% c("phosej", "phosij"), "pHOS", NA)
+                           )
+  )) %>%
+  group_by(esa_pop_name,commonpopname, vargroup) %>%
+  summarise(min_yr = min(spawningyear,na.rm = T),
+            max_yr = max(spawningyear,na.rm = T)
+            ) %>%
+  pivot_wider(names_from = vargroup, values_from = c("min_yr", "max_yr"))%>%
+  dplyr:::select(esa_pop_name,
+                 commonpopname,
+                 min_yr_NOSA,
+                 max_yr_NOSA,
+                 min_yr_TSA,
+                 max_yr_TSA,
+                 min_yr_pHOS,
+                 max_yr_pHOS
+)%>%
+  write.csv(paste0("SPI_data_status",Sys.Date(),".csv"),row.names = F)
+
+
+```
