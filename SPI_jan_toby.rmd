@@ -1,0 +1,108 @@
+---
+title: "SPI data retrival for LCR FMEPs"
+author: "Thomas Buehrens"
+date: "`r Sys.Date()`"
+output: html_document
+---
+
+
+### Load some packages
+```{r}
+pacman::p_load(httr,jsonlite,tidyverse,Rsocrata)
+```
+
+
+### Get SPI dataget 
+
+Get your socrata APP token by:
+1) registering for a data.wa.gov account: https://data.wa.gov/signup
+2) go to the site below (after logging in to data.wa.gov)
+https://data.wa.gov/profile/edit/developer_settings
+3) click "create new app token"
+4) fill out app token info; make sure to put SPI URL
+https://data.wa.gov/resource/x25s-cxg8 as the website
+5) save your email, pw, and app token to your R environment
+6) restart R so it will load your updated r environment file
+
+Congrats, you're now ready to run code below!
+```{r}
+df <- read.socrata(
+  "https://data.wa.gov/resource/x25s-cxg8.json",
+  app_token = Sys.getenv("SPI_SOCRATA_APP_TOKEN"),
+  email     = Sys.getenv("SPI_SOCRATA_APP_email"),
+  password  = Sys.getenv("SPI_SOCRATA_APP_pw")
+)%>%filter(
+  recoverydomain=="Willamette/Lower Columbia"
+)
+```
+
+### Manipulate data to get "clean" records.
+
+1) Create list of pops with popfit == "Same" records (we'll preferentially use those where they exist)
+```{r}
+popfitsame_pops<-df%>%
+  filter(popfit=="Same")%>%
+  dplyr::select(commonpopname)%>%
+  distinct()%>%
+  pull()
+```  
+
+2) Filter data to be popfit same where exists or pull all data if no popfit == same; make sure either way we are using bestvalue != "No"
+  
+```{r} 
+dat<-df%>%
+  filter(popfit == "Same" | !(commonpopname %in% popfitsame_pops))%>%
+  filter(bestvalue!="No")
+```
+
+3) Identify pops where more than 1 record/yr for our fields of interest exist; then save those records to a csv to examine
+```{r}
+dups<- dat %>%
+  group_by(commonpopname, spawningyear) %>%
+  summarise(
+    phosej_count = sum(!is.na(phosej)),
+    phosij_count = sum(!is.na(phosij)),
+    tsaiej_count = sum(!is.na(tsaej)),
+    tsaij_count = sum(!is.na(tsaij)),
+    nosaej_count = sum(!is.na(nosaej)),
+    nosaij_count = sum(!is.na(nosaij))
+  ) %>%
+  ungroup() %>%
+  filter(
+    phosej_count > 1 | phosij_count > 1 | tsaiej_count > 1 | 
+    tsaij_count > 1 | nosaej_count > 1 | nosaij_count > 1
+  )
+
+dat%>%
+  right_join(dups%>%
+               dplyr::select(commonpopname,spawningyear)
+               ,join_by(commonpopname,spawningyear))%>%
+  write.csv("SPI_pops_with_dups.csv",row.names = F)
+```
+
+4) For NOW, let's exclude dups from the data we summarize--and ask Elise to clean up (all chinook)
+```{r}
+finaldf<-dat%>%
+  left_join(dups%>%
+               mutate(dup=1)
+               ,join_by(commonpopname,spawningyear))%>%
+  filter(is.na(dup))%>%
+  dplyr::select(commonpopname,spawningyear,popfit,popfitnotes,tsaej,tsaij,nosaej,nosaij,phosej,phosij)%>%
+  pivot_longer(names_to = "var",
+               values_to = "value",
+               cols=c(tsaej,tsaij,nosaej,nosaij,phosej,phosij)
+               )%>%
+  filter(!is.na(value))%>%
+  pivot_wider(names_from = var,values_from = value)
+
+
+#check for dups (shouldn't be any!)
+dups2<- finaldf %>%
+  group_by(commonpopname, spawningyear) %>%
+  summarise(n=n())%>%
+  filter(n>1)
+
+write.csv(finaldf,paste0("SPI_dat_",Sys.Date(),".csv"),row.names = F)
+
+```
+
