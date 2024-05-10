@@ -101,8 +101,14 @@ dups2<- finaldf %>%
   group_by(commonpopname, spawningyear) %>%
   summarise(n=n())%>%
   filter(n>1)
+```
 
-write.csv(finaldf,paste0("SPI_dat_",Sys.Date(),".csv"),row.names = F)
 
+5) lets add some more names and write out the data
+```{r}
+read_csv("data/tbl_SPI_stock_cleaned.csv")%>%
+  dplyr::select(esu_dps_name=nosa_esu_dps_name,nosa_esa_pop_name,commonpopname=stock_name,stock_id)%>%
+  right_join(finaldf, join_by(commonpopname))%>%
+  write.csv(finaldf,paste0("SPI_dat_",Sys.Date(),".csv"),row.names = F)
 ```
 
