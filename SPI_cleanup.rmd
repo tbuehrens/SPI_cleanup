@@ -87,7 +87,7 @@ finaldf<-dat%>%
                mutate(dup=1)
                ,join_by(commonpopname,spawningyear))%>%
   filter(is.na(dup))%>%
-  dplyr::select(commonpopname,spawningyear,popfit,popfitnotes,tsaej,tsaij,nosaej,nosaij,phosej,phosij)%>%
+  dplyr::select(popid,commonpopname,spawningyear,popfit,popfitnotes,tsaej,tsaij,nosaej,nosaij,phosej,phosij)%>%
   pivot_longer(names_to = "var",
                values_to = "value",
                cols=c(tsaej,tsaij,nosaej,nosaij,phosej,phosij)
@@ -107,8 +107,9 @@ dups2<- finaldf %>%
 5) lets add some more names and write out the data
 ```{r}
 read_csv("data/tbl_SPI_stock_cleaned.csv")%>%
-  dplyr::select(esu_dps_name=nosa_esu_dps_name,nosa_esa_pop_name,commonpopname=stock_name,stock_id)%>%
-  right_join(finaldf, join_by(commonpopname))%>%
-  write.csv(finaldf,paste0("SPI_dat_",Sys.Date(),".csv"),row.names = F)
+  dplyr::select(esu_dps_name=nosa_esu_dps_name,nosa_esa_pop_name,popid=nosa_popid)%>%
+  mutate(popid=as.character(popid))%>%
+  right_join(finaldf, join_by(popid))%>%
+  write.csv(paste0("SPI_dat_",Sys.Date(),".csv"),row.names = F)
 ```
 
