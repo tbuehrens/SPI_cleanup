@@ -1,22 +1,22 @@
 "esa_pop_name","commonpopname","min_yr_NOSA","max_yr_NOSA","min_yr_TSA","max_yr_TSA","min_yr_pHOS","max_yr_pHOS"
 "Salmon, Chinook (Lower Columbia River ESU) Cispus River - spring",NA,NA,NA,NA,NA,NA,NA
 "Salmon, Chinook (Lower Columbia River ESU) Coweeman River - fall","Coweeman Fall (Tule) Chinook","2010","2023","1943","2023","2010","2023"
-"Salmon, Chinook (Lower Columbia River ESU) Elochoman River - fall","Elochoman/Skamokawa Fall (Tule) Chinook","2010","2023","1975","2023","2010","2023"
-"Salmon, Chinook (Lower Columbia River ESU) Grays and Chinook Rivers - fall","Grays/Chinook Fall (Tule) Chinook","2008","2021","1946","2023","2008","2023"
+"Salmon, Chinook (Lower Columbia River ESU) Elochoman River - fall","Elochoman/Skamokawa Fall (Tule) Chinook","2009","2023","1975","2023","2009","2023"
+"Salmon, Chinook (Lower Columbia River ESU) Grays and Chinook Rivers - fall","Grays/Chinook Fall (Tule) Chinook","2008","2023","1946","2023","2008","2023"
 "Salmon, Chinook (Lower Columbia River ESU) Kalama River - fall","Kalama Fall (Tule) Chinook","2010","2023","1943","2023","2010","2023"
-"Salmon, Chinook (Lower Columbia River ESU) Kalama River - spring","Kalama Spring Chinook","2007","2021","1980","2021","2007","2021"
-"Salmon, Chinook (Lower Columbia River ESU) Lewis River - fall","Lewis River Fall (Tule) Chinook","2010","2023","1952","2023","2010","2023"
-"Salmon, Chinook (Lower Columbia River ESU) Lewis River - late fall","Lewis River Late Fall (Bright) Chinook","2010","2023","1964","2023","2010","2023"
-"Salmon, Chinook (Lower Columbia River ESU) Lower Cowlitz River - fall","Lower Cowlitz Fall (Tule) Chinook","2010","2023","1964","2023","2010","2023"
-"Salmon, Chinook (Lower Columbia River ESU) Lower Gorge Tributaries - fall",NA,NA,NA,NA,NA,NA,NA
+"Salmon, Chinook (Lower Columbia River ESU) Kalama River - spring","Kalama Spring Chinook","2007","2023","1980","2023","2007","2023"
+"Salmon, Chinook (Lower Columbia River ESU) Lewis River - fall","Lewis River Fall (Tule) Chinook","2010","2022","1997","2022","2010","2023"
+"Salmon, Chinook (Lower Columbia River ESU) Lewis River - late fall","Lewis River Late Fall (Bright) Chinook","2010","2024","1964","2024","2010","2024"
+"Salmon, Chinook (Lower Columbia River ESU) Lower Cowlitz River - fall","Lower Cowlitz Fall (Tule) Chinook","2010","2022","1964","2022","2010","2022"
+"Salmon, Chinook (Lower Columbia River ESU) Lower Gorge Tributaries - fall","Lower Gorge (Columbia) Late Fall (Bright) Chinook","2010","2023","1994","2023","2010","2023"
 "Salmon, Chinook (Lower Columbia River ESU) Mill, Abernathy, and Germany Creeks - fall","Mill/Abernathy/Germany Creeks Fall (Tule) Chinook","2010","2023","1978","2023","2010","2023"
-"Salmon, Chinook (Lower Columbia River ESU) North Fork Lewis River - spring","North Fork Lewis Spring Chinook","2013","2022","1980","2022","2013","2022"
+"Salmon, Chinook (Lower Columbia River ESU) North Fork Lewis River - spring","North Fork Lewis Spring Chinook","2013","2024","1980","2024","2013","2024"
 "Salmon, Chinook (Lower Columbia River ESU) Salmon Creek - fall",NA,NA,NA,NA,NA,NA,NA
-"Salmon, Chinook (Lower Columbia River ESU) Tilton River - spring",NA,NA,NA,NA,NA,NA,NA
-"Salmon, Chinook (Lower Columbia River ESU) Toutle River - fall","Toutle Fall (Tule) Chinook","2010","2021","1986","2021","2010","2021"
+"Salmon, Chinook (Lower Columbia River ESU) Tilton River - spring","Tilton River - spring Chinook salmon","1996","2021",NA,NA,NA,NA
+"Salmon, Chinook (Lower Columbia River ESU) Toutle River - fall","Toutle Fall (Tule) Chinook",NA,NA,"1986","1986",NA,NA
 "Salmon, Chinook (Lower Columbia River ESU) Toutle River - spring",NA,NA,NA,NA,NA,NA,NA
-"Salmon, Chinook (Lower Columbia River ESU) Upper Cowlitz River - fall","Upper Cowlitz Fall (Tule) Chinook","2010","2021","1996","2021","2010","2021"
-"Salmon, Chinook (Lower Columbia River ESU) Upper Cowlitz River - spring","Upper Cowlitz River - spring Chinook salmon","2010","2021","1980","2021","2010","2021"
+"Salmon, Chinook (Lower Columbia River ESU) Upper Cowlitz River - fall","Upper Cowlitz Fall (Tule) Chinook","2010","2022","1996","2022","2010","2022"
+"Salmon, Chinook (Lower Columbia River ESU) Upper Cowlitz River - spring","Upper Cowlitz and Cispus Spring Chinook","2010","2023","1980","2023","2010","2023"
 "Salmon, Chinook (Lower Columbia River ESU) Upper Gorge Tributaries - fall","Upper Gorge (Columbia) Fall (Tule) Chinook","2010","2021","1996","2021","2010","2021"
 "Salmon, Chinook (Lower Columbia River ESU) Washougal River - fall","Washougal Fall (Tule) Chinook","2010","2023","1944","2023","2010","2023"
 "Salmon, Chinook (Lower Columbia River ESU) White Salmon River - fall","Big White Salmon River Fall (Tule) Chinook","2010","2021","1967","2021","2010","2021"
@@ -24,10 +24,10 @@
 "Salmon, chum (Columbia River ESU) Cowlitz River - fall",NA,NA,NA,NA,NA,NA,NA
 "Salmon, chum (Columbia River ESU) Cowlitz River - summer",NA,NA,NA,NA,NA,NA,NA
 "Salmon, chum (Columbia River ESU) Elochoman River - fall",NA,NA,NA,NA,NA,NA,NA
-"Salmon, chum (Columbia River ESU) Grays and Chinook Rivers - fall","Grays/Chinook Fall Chum","2001","2021","2001","2021","2001","2021"
+"Salmon, chum (Columbia River ESU) Grays and Chinook Rivers - fall","Grays/Chinook Fall Chum","2001","2023","2001","2023","2001","2023"
 "Salmon, chum (Columbia River ESU) Kalama River - fall",NA,NA,NA,NA,NA,NA,NA
 "Salmon, chum (Columbia River ESU) Lewis River - fall",NA,NA,NA,NA,NA,NA,NA
-"Salmon, chum (Columbia River ESU) Lower Gorge Tributaries - fall","Lower Gorge (Columbia) Fall Chum","2000","2022","2000","2022","2000","2022"
+"Salmon, chum (Columbia River ESU) Lower Gorge Tributaries - fall","Lower Gorge (Columbia) Fall Chum","2000","2023","2000","2023","2000","2023"
 "Salmon, chum (Columbia River ESU) Mill, Abernathy, and Germany Creeks - fall",NA,NA,NA,NA,NA,NA,NA
 "Salmon, chum (Columbia River ESU) Salmon Creek - fall",NA,NA,NA,NA,NA,NA,NA
 "Salmon, chum (Columbia River ESU) Upper Gorge Tributaries - fall","Upper Gorge (Columbia) Fall Chum","1938","2023",NA,NA,NA,NA
@@ -50,25 +50,25 @@
 "Salmon, coho (Lower Columbia River ESU) Washington Upper Gorge Tributaries and White Salmon River - late","Upper Gorge (Columbia) Coho","2007","2021","2007","2021","2007","2021"
 "Salmon, coho (Lower Columbia River ESU) Washougal River - late","Washougal Coho","2010","2023","2010","2023","2010","2023"
 "Steelhead (Lower Columbia River DPS) Cispus River - winter",NA,NA,NA,NA,NA,NA,NA
-"Steelhead (Lower Columbia River DPS) Coweeman River - winter","Coweeman Winter Steelhead",NA,NA,"1987","2023","2011","2023"
+"Steelhead (Lower Columbia River DPS) Coweeman River - winter","Coweeman Winter Steelhead",NA,NA,"1987","2024","2011","2023"
 "Steelhead (Lower Columbia River DPS) East Fork Lewis River - summer","East Fork Lewis Summer Steelhead","1996","2022",NA,NA,"1996","2023"
-"Steelhead (Lower Columbia River DPS) East Fork Lewis River - winter","East Fork Lewis Winter Steelhead",NA,NA,"1986","2023","2007","2023"
-"Steelhead (Lower Columbia River DPS) Kalama River - summer","Kalama Summer Steelhead","1977","2022","1977","2022","1999","2022"
-"Steelhead (Lower Columbia River DPS) Kalama River - winter","Kalama Winter Steelhead","2007","2022","1977","2022","2007","2022"
+"Steelhead (Lower Columbia River DPS) East Fork Lewis River - winter","East Fork Lewis Winter Steelhead","2024","2024","1986","2024","2007","2023"
+"Steelhead (Lower Columbia River DPS) Kalama River - summer","Kalama Summer Steelhead","1977","2024","1977","2024","1999","2024"
+"Steelhead (Lower Columbia River DPS) Kalama River - winter","Kalama Winter Steelhead","2007","2024","1977","2024","2007","2024"
 "Steelhead (Lower Columbia River DPS) Lower Cowlitz River - winter","Lower Cowlitz Winter Steelhead","2013","2022","2013","2022","2013","2022"
-"Steelhead (Lower Columbia River DPS) Lower Gorge Tributaries - winter",NA,NA,NA,NA,NA,NA,NA
+"Steelhead (Lower Columbia River DPS) Lower Gorge Tributaries - winter","Lower Gorge (Columbia) Winter Steelhead",NA,NA,"2013","2024","2013","2023"
 "Steelhead (Lower Columbia River DPS) North Fork Lewis River - summer",NA,NA,NA,NA,NA,NA,NA
 "Steelhead (Lower Columbia River DPS) North Fork Lewis River - winter",NA,NA,NA,NA,NA,NA,NA
 "Steelhead (Lower Columbia River DPS) North Fork Toutle River - winter","North Fork Toutle Winter Steelhead",NA,NA,"1985","2022","2007","2022"
 "Steelhead (Lower Columbia River DPS) Salmon Creek - winter",NA,NA,NA,NA,NA,NA,NA
-"Steelhead (Lower Columbia River DPS) South Fork Toutle River - winter","South Fork Toutle Winter Steelhead",NA,NA,"1981","2023","2010","2023"
+"Steelhead (Lower Columbia River DPS) South Fork Toutle River - winter","South Fork Toutle Winter Steelhead",NA,NA,"1981","2024","2010","2023"
 "Steelhead (Lower Columbia River DPS) Tilton River - winter","Tilton Winter Steelhead","1999","2023","1999","2023","2010","2023"
 "Steelhead (Lower Columbia River DPS) Upper Cowlitz River - winter","Upper Cowlitz and Cispus Winter Steelhead","1997","2023","1997","2023","2012","2023"
-"Steelhead (Lower Columbia River DPS) Upper Gorge Tributaries - winter","Upper Gorge (Columbia) Winter Steelhead",NA,NA,"2000","2021","2018","2023"
-"Steelhead (Lower Columbia River DPS) Washougal River - summer","Washougal Summer Steelhead","1986","2022","1953","1973","1999","2023"
-"Steelhead (Lower Columbia River DPS) Washougal River - winter","Washougal Winter Steelhead",NA,NA,"1991","2023","2007","2023"
+"Steelhead (Lower Columbia River DPS) Upper Gorge Tributaries - winter","Upper Gorge (Columbia) Winter Steelhead","2000","2023","2000","2023","2000","2023"
+"Steelhead (Lower Columbia River DPS) Washougal River - summer","Washougal Summer Steelhead","1986","2022","1953","2013","1999","2023"
+"Steelhead (Lower Columbia River DPS) Washougal River - winter","Washougal Winter Steelhead",NA,NA,"1991","2024","2007","2023"
 "Steelhead (Lower Columbia River DPS) Wind River - summer","Wind River (Upper Gorge) Summer Steelhead","1989","2023","2000","2023","2000","2023"
 "Steelhead (Middle Columbia River DPS) Klickitat River - summer and winter",NA,NA,NA,NA,NA,NA,NA
-"Steelhead (Southwest Washington DPS) Elochoman River - winter","Elochoman Winter Steelhead",NA,NA,"1992","2021","2012","2023"
-"Steelhead (Southwest Washington DPS) Grays and Chinook Rivers - winter","Grays River Winter Steelhead",NA,NA,"1989","2021","2008","2023"
+"Steelhead (Southwest Washington DPS) Elochoman River - winter","Elochoman Winter Steelhead",NA,NA,"1992","2024","2012","2023"
+"Steelhead (Southwest Washington DPS) Grays and Chinook Rivers - winter","Grays River Winter Steelhead",NA,NA,"1989","2024","2008","2023"
 "Steelhead (Southwest Washington DPS) Mill Creek - winter","Mill Creek Winter Steelhead",NA,NA,"2005","2021","2007","2023"
